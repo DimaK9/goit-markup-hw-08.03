@@ -62,9 +62,12 @@
         transform: translateX(0);
     }
 }
-.mobile-list__item {
+.mobile-list__item:not(:last-child) {
     margin-bottom: 32px;
 
+}
+.mobile-list {
+    margin-bottom: 64px;
 }
 .mobile-list__link {
     font-weight: 500;
@@ -81,11 +84,9 @@
 
 .mobile__link--tel {
     font-weight: 500;
-    font-size: 34px;
+    font-size: 24px;
     line-height: 1.18;
     letter-spacing: 0.02em;
-
-    padding-bottom: 32px;
     
     color: var(--acent-color);
 }
