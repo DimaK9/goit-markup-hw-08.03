@@ -9,12 +9,13 @@
 
 .team-members__title {
     margin-bottom: 30px;
+    font-size: 28px;
 
     @media screen and (min-width: $desktop) {
         margin-bottom: 50px;
+        font-size: 36px;
     }
 }
-
 .team-members__list {
     @extend %list;
     text-align: center;
