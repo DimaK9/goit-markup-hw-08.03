@@ -1,9 +1,14 @@
+// Utils
 @import './utils/variables';
 @import './utils/placeholders';
+@import './utils/mixins';
+
+// Base
 @import './base/common';
 @import './base/resets';
-@import './utils/mixins';
 @import './base/container';
+
+// Components
 @import './components/logo';
 @import './components/page-header/page-header';
 @import './components/page-header/site-nav';
