@@ -1,0 +1,17 @@
+.logo {
+    @extend %logo;
+}
+
+.logo--colored {
+    color: #000000;
+}
+
+.logo-footer {
+    @extend %logo;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.logo--inverse {
+    color: #ffffff
+}
